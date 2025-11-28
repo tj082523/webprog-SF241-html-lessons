@@ -21,7 +21,7 @@ body {
   background: white;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
   border-radius: 12px;
   display: block;
   margin: 20px auto;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* GALLERY BOXES */
@@ -50,7 +50,7 @@ h2 {
   border-radius: 12px;
 }
 
-.container div {
+.container .item {
   background-color: white;
   width: 100px;
   margin: 10px;
@@ -58,12 +58,18 @@ h2 {
   text-align: center;
   font-size: 22px;
   border-radius: 8px;
-  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   transition: 0.2s ease;
 }
 
-.container div:hover {
+.container .item:hover {
   transform: scale(1.07);
   background: #4a90e2;
   color: white;
+}
+
+.container .item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
